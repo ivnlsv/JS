@@ -1,10 +1,10 @@
-const chatButton = document.querySelector('.chat__button');
+const chatButton = document.querySelector('#chat-button');
 const closeButton = document.querySelector("#close-button");
 const chatBox = document.querySelector('.chat__box');
 const chatMessage = document.querySelector('#chat-message');
-const sendButton = document.querySelector('.btn__send');
+const sendButton = document.querySelector('#send-button');
 const wsUrl = 'wss://echo-ws-service.herokuapp.com'
-const sendGeoButton = document.querySelector('#send-geo');
+const sendGeoButton = document.querySelector('#sendGeo-button');
 const mapLink = document.querySelector('#map-link');
 
 let websocket;
