@@ -1,25 +1,27 @@
-let aparts = [{
-    imgUrl: "../img/rostov-admiral.png",
-    city: "Rostov-on-Don" ,
-    apartName: "Admiral",
-    area: "81 m2",
-    repTime: "3.5 months",
-    repCost: "Upon request" 
-
-}, {
-    imgUrl: "../img/sochi-thieves.png",
-    city: "Sochi",
-    apartName: "Thieves",
-    area: "105 m2",
-    repTime: "4 months",
-    repCost: "Upon request"
-}, {
-    imgUrl: "../img/rostov-patriotic.png",
-    city: "Rostov-on-Don",
-    apartName: "Patriotic",
-    area: "93 m2",
-    repTime: "3 months",
-    repCost: "Upon request"
+let aparts = [
+{
+  imgUrl: "../img/rostov-admiral.png",
+  city: "Rostov-on-Don" ,
+  apartName: "Admiral",
+  area: "81 m2",
+  repTime: "3.5 months",
+  repCost: "Upon request" 
+}, 
+{
+  imgUrl: "../img/sochi-thieves.png",
+  city: "Sochi",
+  apartName: "Thieves",
+  area: "105 m2",
+  repTime: "4 months",
+  repCost: "Upon request"
+}, 
+{
+  imgUrl: "../img/rostov-patriotic.png",
+  city: "Rostov-on-Don",
+  apartName: "Patriotic",
+  area: "93 m2",
+  repTime: "3 months",
+  repCost: "Upon request"
 }];
 
     const sliderImages = document.querySelector(".slider__images");
