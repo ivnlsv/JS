@@ -22,14 +22,14 @@ let aparts = [{
     repCost: "Upon request"
 }];
 
-    let sliderImages = document.querySelector(".slider__images");
-    let cityLocation = document.querySelector(".city__item");
-    let apartArea = document.querySelector(".area__item");
-    let repairTime = document.querySelector(".reptime__item");
-    let repairCost = document.querySelector(".repcost__item");
-    let sliderArrows = document.querySelector(".switcher");
-    let sliderDots = document.querySelector(".slider__dots");
-    let sliderBtn = document.querySelector(".locations");
+    const sliderImages = document.querySelector(".slider__images");
+    const cityLocation = document.querySelector(".city__item");
+    const apartArea = document.querySelector(".area__item");
+    const repairTime = document.querySelector(".reptime__item");
+    const repairCost = document.querySelector(".repcost__item");
+    const sliderArrows = document.querySelector(".switcher");
+    const sliderDots = document.querySelector(".slider__dots");
+    const sliderBtn = document.querySelector(".locations");
 
     initImages();
     initArrows();
