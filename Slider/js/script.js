@@ -50,6 +50,7 @@ function initImages() {
     sliderImages.innerHTML += imageDiv;
   });
 }
+
 function initArrows() {
   sliderArrows.querySelectorAll(".slider__arrows").forEach((arrow) => {
     arrow.addEventListener("click", function () {
